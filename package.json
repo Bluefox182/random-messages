@@ -1,0 +1,23 @@
+{
+  "name": "newnpmapp",
+  "version": "1.0.1",
+  "description": "How to create a NPM package from zero to hero",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bluefox182",
+  "license": "MIT",
+  "bin": {
+    "randomMessage": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bluefox182/random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bluefox182/random-messages/issues"
+  },
+  "homepage": "https://github.com/Bluefox182/random-messages#readme"
+}
